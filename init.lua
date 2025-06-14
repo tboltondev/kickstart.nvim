@@ -50,6 +50,8 @@ vim.keymap.set('i', 'jk', '<Esc>')
 
 vim.keymap.set('n', '<C-e>', '3<C-e>')
 vim.keymap.set('n', '<C-y>', '3<C-y>')
+vim.keymap.set('t', '<C-e>', '3<C-e>')
+vim.keymap.set('t', '<C-y>', '3<C-y>')
 
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
