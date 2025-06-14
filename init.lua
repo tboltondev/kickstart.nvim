@@ -48,6 +48,9 @@ vim.o.confirm = true
 
 vim.keymap.set('i', 'jk', '<Esc>')
 
+vim.keymap.set('n', '<C-e>', '3<C-e>')
+vim.keymap.set('n', '<C-y>', '3<C-y>')
+
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
